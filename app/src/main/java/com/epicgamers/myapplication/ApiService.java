@@ -9,3 +9,4 @@ public interface ApiService {
     @POST("/shorten")
     Call<UrlResponse> shortenUrl(@Body UrlRequest request);
 }
+//need to add analytic api
